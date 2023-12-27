@@ -103,7 +103,7 @@ export default function Header() {
                   </Link>
                 </div>
               </div>
-              <div className='col-sm-2 col-md-2 col-4'>
+              <div className='col-sm-2 col-md-2 col-4 login-nav-btn'>
                 <div className='nav-login'>
                 {
                 item ?
