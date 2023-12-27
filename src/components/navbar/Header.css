@@ -1,0 +1,110 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-area {
+  background-color: #fff;
+  padding: 10px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-area .fa-bag-shopping {
+  font-size: 30px;
+  color: black;
+}
+
+.navbar-area .fa-bag-shopping sup {
+  font-size: 19px;
+  font-weight: 400;
+
+}
+
+.navbar-area h2 {
+  font-family: 'Carattere', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-area .nav-box {
+  text-align: center;
+}
+
+.navbar-area .nav-shop {
+  text-align: right;
+  margin-top: 5px;
+}
+
+.navbar-area .nav-login {
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+a {
+  text-decoration: none;
+}
+input#username {
+  margin-bottom: 0px;
+}
+input#password {
+  margin-bottom: 0px;
+
+}
+ .login-title{
+    font-family: 'Carattere', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.fade.alert.alert-normal.show {
+  margin-bottom: 0px;
+}.get-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.login-btn2{
+  font-size: 16px;
+  margin-right: 10px;
+}
+@media (max-width:767px){
+  .navbar-area .nav-shop {
+    text-align: right;
+    margin-top: 12px;
+}.navbar-area .fa-bag-shopping {
+  font-size: 20px;
+  color: black;
+}.navbar-area .fa-bag-shopping sup {
+  font-size: 12px;
+  font-weight: 400;
+}.login-btn{
+  padding: 10px;
+}.login-btn {
+  margin-top: 7px;
+  padding: 1px 5px;
+  font-size: 13px;
+}.navbar-area .nav-login {
+  text-align: left;
+}
+
+}
+@media (max-width:576px){
+  .nnn{
+      display: none;
+  }.login-btn2{
+    font-size: 12px;
+    margin-right: 5px;
+  }
+}

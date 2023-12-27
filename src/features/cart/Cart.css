@@ -1,0 +1,217 @@
+.cart-sec {
+   overflow: hidden;
+}
+.cg-box{
+    align-items: center;
+    background-attachment: fixed;
+    background-image:url(/public/images/eco7.jpg);
+    background-size: cover;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+.cg-area .main-title{
+    color: white;
+}
+ .btn {
+    padding: 10px;
+}
+
+.cartitem-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cartitem-text {
+    margin-bottom: 40px;
+}
+
+ .cal-btn {
+    padding: 5px 10px !important;
+    background: #000;
+    border: none;
+    box-shadow: none;
+}
+
+ .cart-quantity {
+    margin-top: 5px;
+}
+
+.cart-price {
+    font-size: 20px;
+    text-align: start !important;
+}
+
+ .cart-trash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box h2 {
+    color: #00182C;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+input {
+    border: none;
+    color: #706f6fed;
+    background: whitesmoke;
+    border-radius: 2px;
+    border: 1px solid #d1d1d1;
+    padding: 15px 113px 15px 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form-box h5 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.form-box .customer-detail {
+    text-align: start;
+}
+
+.form-box {
+    border-radius: 8px;
+    background: #FFF;
+    padding-bottom: 30px;
+}
+
+.form-box input {
+    border: none;
+    color: #706f6fed;
+    background: whitesmoke;
+    border-radius: 2px;
+    border: 1px solid #d1d1d1;
+    padding: 15px 113px 15px 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#message-box {
+    padding-bottom: 100px;
+}
+
+.input-subject {
+    padding-right: 450px !important;
+}
+
+#name-input {
+    margin-right: 30px;
+}
+
+.form-box .customer-detail {
+    text-align: center;
+}
+.form-box .customer-detail .btn-pay{
+width: 75%;
+
+}
+.form-box .customer-detail h2{
+   margin-bottom: 30px;
+}
+.order-area{
+    margin:30px 50px;
+    margin-top: 130px;
+}
+.thanks-area .thanks-box {
+    border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.thanks-area  i.fa-solid.fa-check {
+    color: #32da00;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.thanks-area  .col {
+    border-top: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px;
+}
+.thanks-area .last-col{
+    border-right: 1px solid gainsboro;
+
+}
+.thanks-area .order-btns {
+    text-align: center;
+}
+.from-area{
+    text-align: center;
+}
+.cart-plus-minus{
+    display: flex !important;
+    justify-content: center;
+}
+@media (max-width:1300px){
+    .order-box h4{
+        font-size: 20px;
+    }.thanks-area  .col {
+        padding: 10px;
+    }
+}
+@media (max-width:767px){
+    .order-area{
+        margin:0px 0px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }.input-subject {
+        padding-right: 300px !important;
+        padding-bottom: 50px !important;
+    }
+}
+
+@media (max-width:680px){
+    .input-subject {
+        padding-right: 100px !important;
+        padding-bottom: 50px !important;
+    }#name-input {
+        margin-right: 0px;
+    }
+    .form-box .customer-detail .btn-pay{
+        width: 60%;
+        
+        }
+}
+@media (min-width:767px){
+    .deliver-date{
+        margin-left: 20px;
+    } 
+}
+@media (max-width:767px){
+    .card-body {
+        text-align: center;
+    }.text-start {
+        text-align: center !important   ;
+    }button.btn.btn-dark.btn-lg.btn-block.check-out-btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:576px){
+    .thanks-area .thanks-box {
+        font-size: 12px;
+    }    .order-box h4{
+        font-size: 14px;
+    }  .order-box p{
+        font-size: 12px;
+    }.thanks-area  .col {
+        padding: 10px;
+    }
+    .card-body {
+        text-align: center;
+    }.text-start {
+        text-align: center !important   ;
+    }
+}

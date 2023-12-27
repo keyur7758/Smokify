@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-box {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url(/public/images/eco8.jpg);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.bg-area {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bg-area .trend {
+    display: inline-block;
+    color: white;
+}
+
+.bg-area .fa-fire-flame-curved {
+    font-size: 30px;
+    color: black;
+}
+
+.bg-area .main-title {
+    color: white;
+    font-size: 50px;
+}
+.product-title{
+    margin-bottom: 30px ;
+}
+
+@media (max-width:576px) {
+    .bg-box {
+        height: 60vh;
+    }
+
+    .bg-area .main-title {
+        color: white;
+        font-size: 30px;
+    }
+
+    .bg-area .fa-fire-flame-curved {
+        font-size: 15px;
+    }
+    .product-title{
+        font-size: 30px;
+        margin-bottom: 30px ;
+    }
+}
